@@ -269,17 +269,17 @@ export default function GhostPinLanding() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="group relative px-8 py-4 bg-gradient-to-r from-emerald-400 to-teal-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-3">
+              <button onClick={() => alert('Coming Soon')} className="group relative px-8 py-4 bg-gradient-to-r from-emerald-400 to-teal-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-3">
                 <Smartphone className="w-5 h-5" />
                 <span>Download for iOS</span>
-                <div className="absolute inset-0 bg-white/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <div className="absolute inset-0 bg-white/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" /> 
               </button>
               
-              <button className="group relative px-8 py-4 bg-gradient-to-r from-blue-400 to-purple-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-3">
+              <a download={true} href="https://github.com/Sahil2720kumar/ghostpin-web/releases/download/ghostpinv1/ghostpin.1.apk" className="group relative px-8 py-4 bg-gradient-to-r from-blue-400 to-purple-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-3">
                 <Download className="w-5 h-5" />
                 <span>Download for Android</span>
                 <div className="absolute inset-0 bg-white/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </button>
+              </a>
             </div>
             
             <div className="mt-8 flex items-center justify-center space-x-1">
