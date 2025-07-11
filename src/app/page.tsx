@@ -97,7 +97,7 @@ export default function GhostPinLanding() {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-              <a download={true} href="https://github.com/Sahil2720kumar/ghostpin-web/releases/download/ghostpinv1/ghostpin.1.apk" className="group relative px-8 py-4 bg-gradient-to-r from-emerald-400 to-teal-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
+              <a download={true} href="https://github.com/Sahil2720kumar/ghostpin-web/releases/download/ghostpinv1/ghostpinV2.apk" className="group relative px-8 py-4 bg-gradient-to-r from-emerald-400 to-teal-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-2">
                 <Download className="w-5 h-5" />
                 <span>Download Free</span>
                 <div className="absolute inset-0 bg-white/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -275,7 +275,7 @@ export default function GhostPinLanding() {
                 <div className="absolute inset-0 bg-white/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" /> 
               </button>
               
-              <a download={true} href="https://github.com/Sahil2720kumar/ghostpin-web/releases/download/ghostpinv1/ghostpin.1.apk" className="group relative px-8 py-4 bg-gradient-to-r from-blue-400 to-purple-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-3">
+              <a download={true} href="https://github.com/Sahil2720kumar/ghostpin-web/releases/download/ghostpinv1/ghostpinV2.apk" className="group relative px-8 py-4 bg-gradient-to-r from-blue-400 to-purple-500 text-white font-bold rounded-2xl shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 hover:scale-105 flex items-center space-x-3">
                 <Download className="w-5 h-5" />
                 <span>Download for Android</span>
                 <div className="absolute inset-0 bg-white/20 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
